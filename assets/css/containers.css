@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-content{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 95vh;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-content{
+    padding: 15px;
+}

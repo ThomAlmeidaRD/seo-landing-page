@@ -1,0 +1,100 @@
+.product-content h1 {
+    width: 80%;
+    font-size: 3.5em;
+    margin-top: 15px;
+}
+
+.product-content p {
+    text-align: left;
+    line-height: 25px;
+    font-weight: 450;
+    font-size: 1.1em;
+    width: 70%;
+    padding: 20px 0px;
+}
+
+.pricing {
+    padding: 10px;
+    border: 1px solid #D8D8D8;
+    box-shadow: 2px 3px 4px #ddd;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.price-strike {
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: 15pt;
+    color: rgb(253, 48, 89);
+    font-weight: 500;
+}
+
+.price-real {
+    font-size: 3.8em;
+    padding-bottom: 15px;
+}
+
+.parcelas{
+    font-weight: 470;
+    margin-bottom: 15px;
+}
+
+.flex-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.buy-now-button {
+    padding: 15px;
+    width: 60%;
+    border: none;
+    background-color: #00DC58;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 4px #888;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buy-now-button:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 4px rgb(100, 100, 100);
+}
+
+#add-card{
+    padding: 10px;
+}
+
+#add-card a{
+    color: dodgerblue;
+}
+
+.buy-now-button-card {
+    padding: 15px;
+    width: 40%;
+    border: none;
+    background-color: mediumslateblue;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 4px #888;
+    cursor: pointer;
+}
+
+.flex-buttons b{
+    margin: 10px;
+    font-size: 15pt;
+}
+
+.promo{
+    padding: 5px;
+    background-color: #00DC58;
+    color: #fff;
+    border-radius: 8px;
+}
